@@ -1,0 +1,43 @@
+diff --git a/node_modules/react-native-select-dropdown/src/SelectDropdown.js b/node_modules/react-native-select-dropdown/src/SelectDropdown.jsx
+similarity index 89%
+rename from node_modules/react-native-select-dropdown/src/SelectDropdown.js
+rename to node_modules/react-native-select-dropdown/src/SelectDropdown.jsx
+index d114c06..45dcc6c 100644
+--- a/node_modules/react-native-select-dropdown/src/SelectDropdown.js
++++ b/node_modules/react-native-select-dropdown/src/SelectDropdown.jsx
+@@ -1,14 +1,14 @@
+ import React, {forwardRef, useImperativeHandle, useCallback} from 'react';
+ import {View, TouchableOpacity, FlatList} from 'react-native';
+-import {isExist} from './helpers/isExist';
+-import Input from './components/Input';
+-import DropdownOverlay from './components/DropdownOverlay';
+-import DropdownModal from './components/DropdownModal';
+-import DropdownWindow from './components/DropdownWindow';
+-import {useSelectDropdown} from './hooks/useSelectDropdown';
+-import {useLayoutDropdown} from './hooks/useLayoutDropdown';
+-import {useRefs} from './hooks/useRefs';
+-import {findIndexInArr} from './helpers/findIndexInArr';
++import {isExist} from 'react-native-select-dropdown/src/helpers/isExist';
++import Input from 'react-native-select-dropdown/src/components/Input';
++import DropdownOverlay from 'react-native-select-dropdown/src/components/DropdownOverlay';
++import DropdownModal from 'react-native-select-dropdown/src/components/DropdownModal';
++import DropdownWindow from 'react-native-select-dropdown/src/components/DropdownWindow';
++import {useSelectDropdown} from 'react-native-select-dropdown/src/hooks/useSelectDropdown';
++import {useLayoutDropdown} from 'react-native-select-dropdown/src/hooks/useLayoutDropdown';
++import {useRefs} from 'react-native-select-dropdown/src/hooks/useRefs';
++import {findIndexInArr} from 'react-native-select-dropdown/src/helpers/findIndexInArr';
+ 
+ const SelectDropdown = (
+   {
+diff --git a/node_modules/react-native-select-dropdown/src/components/DropdownModal.js b/node_modules/react-native-select-dropdown/src/components/DropdownModal.jsx
+similarity index 100%
+rename from node_modules/react-native-select-dropdown/src/components/DropdownModal.js
+rename to node_modules/react-native-select-dropdown/src/components/DropdownModal.jsx
+diff --git a/node_modules/react-native-select-dropdown/src/components/DropdownOverlay.js b/node_modules/react-native-select-dropdown/src/components/DropdownOverlay.jsx
+similarity index 100%
+rename from node_modules/react-native-select-dropdown/src/components/DropdownOverlay.js
+rename to node_modules/react-native-select-dropdown/src/components/DropdownOverlay.jsx
+diff --git a/node_modules/react-native-select-dropdown/src/components/DropdownWindow.js b/node_modules/react-native-select-dropdown/src/components/DropdownWindow.jsx
+similarity index 100%
+rename from node_modules/react-native-select-dropdown/src/components/DropdownWindow.js
+rename to node_modules/react-native-select-dropdown/src/components/DropdownWindow.jsx
